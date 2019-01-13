@@ -1,17 +1,19 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "lib": [
-        "es2015",
-        "dom"
-      ],
-      "outDir": "dist/",
-      "noImplicitAny": true,
-      "allowJs": false,
-      "removeComments": true
+        "module": "commonjs",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "target": "es2017",
+        "moduleResolution": "node",
+        "outDir": "dist/compiled",
+        "declaration": true,
+        "noImplicitAny": true,
+        "allowJs": false,
+        "removeComments": true
     },
     "include": [
-      "src"
+        "src"
     ]
-  }
-  
+}
