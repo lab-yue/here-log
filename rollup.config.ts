@@ -9,7 +9,7 @@ export default {
     input: "src/index.ts",
     output: [{
         name: "here",
-        file: "dist/here.js",
+        file: "dist/index.js",
         format: "umd"
     }],
     plugins: [
